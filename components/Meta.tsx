@@ -7,8 +7,6 @@ const Meta: React.FC = () => {
             <title>NextJS Template</title>
             <meta name="theme-color" content="rgb(30,30,30)" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="author" content="Your Name" />
-            <meta name="description" content="NextJS Template App" />
             <link rel="shortcut icon" href="/favicon.ico" />
             <link rel="stylesheet" type="text/css" href="/styles/normalize.css" />
             <link rel="stylesheet" type="text/css" href="/styles/global.css" />
