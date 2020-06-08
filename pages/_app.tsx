@@ -1,12 +1,17 @@
 import { AppProps } from 'next/app';
+import { Provider } from 'react-redux';
 
-import Page from '../components/Page';
+import Meta from '../components/Meta';
+import store from '../store';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     return (
-        <Page>
-            <Component {...pageProps} />
-        </Page>
+        <>
+            <Meta />
+            <Provider store={store}>
+                <Component {...pageProps} />
+            </Provider>
+        </>
     );
 };
 
