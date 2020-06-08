@@ -2,15 +2,15 @@
 
 A template for starting new a NextJS project, includes intiial setup setup for eslint, prettier, redux and includes emotion(styled).
 
-## Major inclusions -
+## Major inclusions
 
+- [Typescript](https://www.typescriptlang.org/)
 - [Emotion](https://emotion.sh/docs/introduction)
 - [Redux](https://redux.js.org/) / [React-Redux](https://react-redux.js.org/)
 - [ESlint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [husky](https://github.com/typicode/husky) / [lint-staged](https://github.com/okonet/lint-staged#readme)
 - [Normalize.css](https://necolas.github.io/normalize.css/)
-- [Typescript](https://www.typescriptlang.org/)
 
 ## How to use this template
 
@@ -20,11 +20,12 @@ A template for starting new a NextJS project, includes intiial setup setup for e
 
 ## Included in this template
 
-- Setup for eslint and prettier targeting NextJS
+- Setup for eslint and prettier targeting NextJS development and some useful rules.
 - Setup for Redux (react-redux, redux-logger, redux-thunk, redux-devtools-extension)
 - A typed [useSelector](./utils/useSelector.ts) hook using the type of your rootReducer.
 - Husky for creating a pre-commit hook that runs eslint every time you commit.
 - lint-staged to make sure you only run eslint on the staged(.js, jsx, ts.tsx) files. Save time by excluding the files that didn't change in a particular commit.
+- normalize.css to make your UI more consistent across browsers.
 
 ## Open to Contributions
 
