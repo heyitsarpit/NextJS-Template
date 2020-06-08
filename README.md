@@ -15,7 +15,7 @@ A template for starting new a NextJS project, includes intiial setup setup for e
 ## How to use this template
 
 - Create your own repository by clicking on the the [Use this template](https://github.com/arpit73/NextJS-Template/generate) button.
-- Update the [License](./LICENSE) file, with current year and your name.
+- Update the MIT [License](./LICENSE) file, with current year and your name. Or just add another license if you wish.
 - Update the app related information in [package.json](./package.json)
 
 ## Included in this template
@@ -26,6 +26,12 @@ A template for starting new a NextJS project, includes intiial setup setup for e
 - Husky for creating a pre-commit hook that runs eslint every time you commit.
 - lint-staged to make sure you only run eslint on the staged(.js, jsx, ts.tsx) files. Save time by excluding the files that didn't change in a particular commit.
 - normalize.css to make your UI more consistent across browsers.
+
+**Note**
+
+```
+The repo has a `yarn.lock` at the root, you may simply delete it and continue with `npm` if you wish to use that instead.
+```
 
 ## Open to Contributions
 
