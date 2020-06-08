@@ -23,6 +23,8 @@ A template for starting new a NextJS project, includes intiial setup setup for e
 - Setup for eslint and prettier targeting NextJS
 - Setup for Redux (react-redux, redux-logger, redux-thunk, redux-devtools-extension)
 - A typed [useSelector](./utils/useSelector.ts) hook using the type of your rootReducer.
+- Husky for creating a pre-commit hook that runs eslint every time you commit.
+- lint-staged to make sure you only run eslint on the staged(.js, jsx, ts.tsx) files. Save time by excluding the files that didn't change in a particular commit.
 
 ## Open to Contributions
 
